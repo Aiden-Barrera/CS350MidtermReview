@@ -1,0 +1,43 @@
+Fill in the missing entries of the table. Set the word size, w, to be the smallest multiple of four bits large enough to hold the bit pattern.
+w 	Binary 	Octal 	Decimal (signed) 	Decimal (unsigned) 	Hexadecimal
+8 	10100010 				
+		3151 			
+			-1227 		
+				26819 	
+					A1A
+
+Assuming w = 8, we can assign a numeric value to each possible hexadecimal number, assuming either an unsigned or a two's-complement interpretation. Fill in the following table according to these interpretations.
+x 		
+Hexadecimal 	Binary 	B2U8(x) 	B2T8(x)
+0xEA 	________ 	________ 	________
+0x01 	________ 	________ 	________
+0x5B 	________ 	________ 	________
+0x82 	________ 	________ 	________
+0xD7 	________ 	________ 	________
+0xFC 	________ 	________ 	________
+
+Consider an array of two 16-bit signed integers stored in a big-endian, byte-addressable machine. The addresses and their corresponding byte values are given below.
+Address 	Byte Value
+0x104 	0xA3
+0x103 	0xF9
+0x102 	0x34
+0x101 	0x12
+
+ 
+
+    Determine the storage pattern of this array when it is stored in a little-endian machine.
+    Calculate the decimal values of the two integers.
+
+
+Give binary representations for the following fractional decimal values:
+
+    0.95
+    27.15625
+
+Give the IEEE double-precision floating point representation for the following decimal numbers. Write the answers in hexadecimal without the 0x prefix.
+
+    128000
+    -128.125
+
+What decimal value is represented by the IEEE double-precision floating point representation given in hexadecimal as C0A8000000000000?
+
