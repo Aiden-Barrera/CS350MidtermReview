@@ -1,4 +1,4 @@
-# Practice Problem 3.1
+# Intel x86-64 Registers
 
 ## General Purpose Registers (64-bit)
 
